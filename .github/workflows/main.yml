@@ -35,5 +35,5 @@ jobs:
         
       # Prettify code
       - name: Run prettier command
-        run: npm npx prettier --write .
+        run: npx prettier --write .
 
