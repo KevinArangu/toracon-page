@@ -29,7 +29,11 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v3.4.1
         
+      # Install prettier
+      - name: Install prettier with Node.js
+        run: npm install --save-dev --save-exact prettier
+        
       # Prettify code
       - name: Run prettier command
-        run: npm run prettier
+        run: npm npx prettier --write .
 
