@@ -1,8 +1,5 @@
-
-const MainLayout = ({children}) => {
-  return (
-    <main>{children}</main>
-  )
+const MainLayout = ({ children }) => {
+  return <main>{children}</main>
 }
 
 export default MainLayout
