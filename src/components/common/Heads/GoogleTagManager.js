@@ -3,6 +3,7 @@ import Script from "next/script"
 const GoogleTagManager = () => {
   return (
     <Script
+    id="GoogleTagManager"
       strategy="afterInteractive"
       dangerouslySetInnerHTML={{
         __html: `
