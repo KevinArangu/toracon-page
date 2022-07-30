@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Script from "next/script";
 
 const Heads = () => {
   const GMT_ID = "GTM-5V9RVN9";
@@ -7,9 +6,8 @@ const Heads = () => {
   return (
     <Head>
       <title>Toracon Venezuela</title>
-      <Script
+      <script
         id="analytics"
-        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
