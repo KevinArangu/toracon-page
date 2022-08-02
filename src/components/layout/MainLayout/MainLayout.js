@@ -3,11 +3,13 @@ import Footer from "@/components/layout/Footer"
 
 const MainLayout = ({ children }) => {
 
-  return <>
-  <Header></Header>
-  <main>{children}</main>
-  <Footer></Footer>
-  </>
+  return (
+    <>
+      <Header />
+      <main className="min-h-screen bg-gray-100 pt-10">{children}</main>
+      <Footer />
+    </>
+  )
 }
 
 export default MainLayout
