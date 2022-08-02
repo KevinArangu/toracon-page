@@ -3,8 +3,10 @@ import Container from "@/components/layout/Container";
 
 const Header = () => {
   return (
-    <MainHeader $as={Container}>
-      <span className="text-xl text-white">Toracon</span>
+    <MainHeader>
+      <Container>
+        <span className="text-xl text-white">Toracon</span>
+      </Container>
     </MainHeader>
   )
 }

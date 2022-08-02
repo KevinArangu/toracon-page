@@ -3,7 +3,11 @@ import Container from "@/components/layout/Container"
 
 const Footer = () => {
   return (
-    <MainFooter $as={Container}>Footer</MainFooter>
+    <MainFooter>
+      <Container>
+        Footer
+      </Container>
+    </MainFooter>
   )
 }
 
