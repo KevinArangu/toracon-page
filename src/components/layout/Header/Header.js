@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <MainHeader>
       <Container>
-        <span className="text-xl text-white">Toracon</span>
+        Toracon
       </Container>
     </MainHeader>
   )
