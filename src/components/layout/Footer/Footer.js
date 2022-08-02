@@ -1,8 +1,9 @@
-import React from 'react'
+import { MainFooter } from './styles'
+import Container from "@/components/layout/Container"
 
 const Footer = () => {
   return (
-    <footer>Footer</footer>
+    <MainFooter $as={Container}>Footer</MainFooter>
   )
 }
 
