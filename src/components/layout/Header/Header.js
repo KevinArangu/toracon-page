@@ -4,12 +4,14 @@ import Image from "next/image"
 
 const Header = () => {
   return (
-      <Container $as={MainHeader}>
+    <MainHeader>
+      <Container>
         <div className="max-w-[12rem]">
           <Image src="iso.svg" fill="responsive" width={150} height={150} className="fill-white"  />
         </div>
         <div className="flex-1"></div>
       </Container>
+    </MainHeader>
   )
 }
 
