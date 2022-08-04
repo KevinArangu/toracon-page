@@ -3,7 +3,7 @@
 }
 
 .header-top{
-    @apply h-16 bg-black fixed top-0 inset-x-0
+    @apply h-16 bg-black fixed top-0 inset-x-0 text-white
 }
 
 .main{
