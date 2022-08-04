@@ -1,6 +1,7 @@
 import { MainHeader } from './styles';
 import Container from "@/components/layout/Container";
-import Image from "next/image"
+import Image from "next/image";
+import Link from "next/link";
 
 const LINKS = [{ title: "Nosotros", route: "/nosotros" }, { title: "Eventos", route: "/eventos" }, { title: "Contáctanos", route: "/contacto" }, { title: "Blog", route: "/blog" }]
 
