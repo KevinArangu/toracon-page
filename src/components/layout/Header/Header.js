@@ -7,7 +7,7 @@ const Header = () => {
     <MainHeader>
       <Container className="flex py-2 w-full">
         <div className="h-full">
-          <img src="iso.svg" fill="responsive" width={150} height={150} className="fill-white" />
+          <img src="iso.svg" fill="responsive" className="fill-white" />
         </div>
         <div className="flex-1"></div>
       </Container>
