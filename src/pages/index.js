@@ -1,4 +1,5 @@
 import Counter from "@/components/common/Counter"
+import Container from "@/components/layout/Container";
 
 export default function Home() {
   return
