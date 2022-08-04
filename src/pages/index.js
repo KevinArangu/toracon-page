@@ -22,8 +22,8 @@ export default function Home() {
         </div>
         
         <div className="h-72 w-full bg-gray-200 rounded-md flex flex-col lg:space-x-4 lg:flex-row">
-          <div className="w-full lg:w-96 h-full bg-gray-300 rounded-md">IMAGE</div>
           <div className="flex-1">TEXT</div>
+          <div className="w-full lg:w-96 h-full bg-gray-300 rounded-md">IMAGE</div>
         </div>
       </Container>
     </>
