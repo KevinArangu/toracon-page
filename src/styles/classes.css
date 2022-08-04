@@ -7,9 +7,9 @@
 }
 
 .main{
-    @apply min-h-screen mt-16 py-4
+    @apply min-h-screen pt-16
 }
 
 .footer{
-    @apply bg-gray-900
+    @apply h-24
 }
