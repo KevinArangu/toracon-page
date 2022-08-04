@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <MainHeader>
       <Container className="flex py-2 w-full">
-        <div className="max-w-[12rem]">
+        <div className="h-full">
           <img src="iso.svg" fill="responsive" width={150} height={150} className="fill-white" />
         </div>
         <div className="flex-1"></div>
