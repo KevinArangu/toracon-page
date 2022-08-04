@@ -2,8 +2,12 @@
     @apply bg-gray-100
 }
 
+.header-top{
+    @apply h-16 bg-black fixed top-0 inset-x-0
+}
+
 .main{
-    @apply min-h-screen pt-10 pb-4
+    @apply min-h-screen mt-16 py-4
 }
 
 .footer{
