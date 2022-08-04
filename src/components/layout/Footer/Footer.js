@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <MainFooter>
       <Container>
-        Footer
+        <div className="text-white">LOGO</div>
       </Container>
     </MainFooter>
   )
