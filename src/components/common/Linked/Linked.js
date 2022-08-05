@@ -1,9 +1,9 @@
-import Link from 'next/link'
+import Link from "next/link"
 
-const Linked = ({href, children, scroll, ...props}) => {
+const Linked = ({ href, children, scroll, ...props }) => {
   return (
     <Link href={href} scroll={scroll}>
-        <a {...props}>{children}</a>
+      <a {...props}>{children}</a>
     </Link>
   )
 }

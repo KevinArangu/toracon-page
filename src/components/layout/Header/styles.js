@@ -1,3 +1,3 @@
-import tw from "tailwind-styled-components";
+import tw from "tailwind-styled-components"
 
 export const MainHeader = tw.header`header-top`

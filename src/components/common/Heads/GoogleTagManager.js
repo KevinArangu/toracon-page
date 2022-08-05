@@ -1,11 +1,11 @@
 import Script from "next/script"
 
 const GoogleTagManager = () => {
-  const GMT_ID = "GTM-5V9RVN9";
+  const GMT_ID = "GTM-5V9RVN9"
 
   return (
     <Script
-    id="analytics"
+      id="analytics"
       dangerouslySetInnerHTML={{
         __html: `
           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

@@ -1,7 +1,7 @@
-import Head from "next/head";
+import Head from "next/head"
 
 const Heads = () => {
-  const GMT_ID = "GTM-5V9RVN9";
+  const GMT_ID = "GTM-5V9RVN9"
 
   return (
     <Head>

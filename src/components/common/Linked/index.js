@@ -1,2 +1,2 @@
-import Linked from "./Linked";
+import Linked from "./Linked"
 export default Linked

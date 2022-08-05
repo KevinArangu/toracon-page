@@ -1,4 +1,4 @@
-import { MainFooter } from './styles'
+import { MainFooter } from "./styles"
 import Container from "@/components/layout/Container"
 
 const Footer = () => {
